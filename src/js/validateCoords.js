@@ -1,5 +1,5 @@
 export function validateCoords(coords) {
-  const regExp = /^(\[?-?\d+\.\d{3,5},\s?-?\d+\.\d{3,5}\]?)$/;
+  const regExp = /^(\[?-?\d+\.\d{3,7},\s?-?\d+\.\d{3,7}\]?)$/;
 
   const result = regExp.test(coords);
   if (result) {
