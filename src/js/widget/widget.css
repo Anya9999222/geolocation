@@ -1,0 +1,22 @@
+.widget-container {
+    width: 60%;
+    background-color: rgb(209, 209, 209);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.widget-content {
+    min-height: 500px;
+    padding: 20px;
+}
+
+.widget-footer {
+    display: flex;
+    justify-content: center;
+}
+.widget-input {
+    width: 95%;
+    height: 40px;
+}

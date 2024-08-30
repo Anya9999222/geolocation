@@ -1,0 +1,44 @@
+.note-container {
+    /* display: flex;
+    flex-direction: column; */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: rgb(247, 247, 238);
+}
+
+.note-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.note-content {
+    word-break: break-all;
+}
+
+.note-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hide-coords {
+    width: 15px;
+    height: 15px;
+    background-image: url('../../assets/eye-off-svgrepo-com.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.hide-coords.hidden {
+    background-image: url('../../assets/eye.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.coords-hidden {
+    opacity: 0;
+}
